@@ -24,7 +24,7 @@ IRrecv rec(2);
 decode_results res;
 Servo servo;
 
-char StorePass[]="123123";
+char StorePass[]="your password";
 int i=0,count=0,number=sizeof(StorePass)-1;
 char pass[sizeof(StorePass)-1];
 
