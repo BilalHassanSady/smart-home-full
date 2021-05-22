@@ -52,28 +52,28 @@ void setup(){
 
 void loop(){
   if(rec.decode(&res)){
-    if(res.value == 0xFD30CF){
+    if(res.value == 0xzzzzzz){
      digitalWrite(relay1,LOW);
    }
-    if(res.value == 0xFDB04F){
+    if(res.value == 0xzzzzzz){
      digitalWrite(relay1,HIGH);
     }
-    if(res.value == 0xFD08F7){
+    if(res.value == 0xzzzzzz){
      digitalWrite(relay2,LOW);
     }
-    if(res.value == 0xFD8877){
+    if(res.value == 0xzzzzzz){
     digitalWrite(relay2,HIGH);
     }
-    if(res.value == 0xFD28D7){
+    if(res.value == 0xzzzzzz){
     digitalWrite(relay3,LOW);
     }
-    if(res.value == 0xFDA857){
+    if(res.value == 0xzzzzzz){
      digitalWrite(relay3,HIGH);
     }
-    if(res.value == 0xFD18E7){
+    if(res.value == 0xzzzzzz){
      digitalWrite(relay4,LOW);
     }
-    if(res.value == 0xFD9867){
+    if(res.value == 0xzzzzzz){
      digitalWrite(relay4,HIGH);
     }           
     rec.resume();
